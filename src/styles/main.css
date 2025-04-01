@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light Bootstrap background */
+    color: #212529; /* Text color for readability */
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  form {
+    margin: 20px auto;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ced4da; /* Bootstrap border color */
+  }
+  
+  input, textarea, select {
+    margin-bottom: 15px;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-item:hover {
+    background-color: #f1f3f5;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #6c757d; /* Bootstrap muted color */
+  }
+  
